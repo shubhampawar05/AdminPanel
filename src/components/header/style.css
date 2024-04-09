@@ -1,0 +1,35 @@
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid rgba(88, 85, 85, 0.426);
+    padding: 0 1rem;
+
+}
+.searchInput{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+}
+.searchInput input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+}
+
+.headerIcons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.profilephoto{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
