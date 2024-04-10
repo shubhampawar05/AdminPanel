@@ -2,3 +2,27 @@
 height: 640px;
 padding: 1rem;
 }
+.cellwithTable{
+    display: flex;
+    align-items: center;
+}
+.cellAction{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* padding: 5px; */
+    /* margin: 0.5rem; */
+
+}
+.viewAction{
+    padding: 0px 15px;
+    border-radius: 5px;
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+.deletAction{
+    padding: 0px 15px;
+    border-radius: 5px;
+    color: crimson;
+    border: 1px solid crimson;
+}
