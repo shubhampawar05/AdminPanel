@@ -1,12 +1,31 @@
 .home{
     display: flex;
+    
 }
-.homeWrapper{
-    flex: 6;
-    background-color: aqua;
-}
+
 .reortCartContainer{
     display: flex;
-  margin: 1rem;
+    margin: 1rem;
     gap: 0.5rem ;
+}
+.charts{
+    display: flex;
+    margin: 1rem;
+    gap: 0.5rem;
+}
+.listContainer{
+    /* display: flex; */
+    margin: 1rem;
+    gap: 0.5rem;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+}
+.listTitile{
+
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    
+    
 }

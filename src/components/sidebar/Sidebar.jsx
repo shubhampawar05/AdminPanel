@@ -9,26 +9,33 @@ import { BsCartCheckFill } from "react-icons/bs";
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-       <div >
-        <div className="top">
-              Admin Panel
+      <div className="sidebarUp">
+
+      
+        <div className="sidebar_top">
+              Admin Dashboard
           </div>
-          <div className="center">
+          <div className="sidebar_center">
             <ul>
-              <li><MdDashboard className="icons"/> Dashboard</li>
-              <li> <BiSolidUser className="icons"/> Users</li>
-              <li> <FaShop className="icons"/> Products</li>
-              <li><BsCartCheckFill className="icons"/>Orders</li>
-              <li><TbTruckDelivery className="icons"/> Delivery</li>
+              <li><MdDashboard className="sidebar_icons"/> Dashboard</li>
+              <li> <BiSolidUser className="sidebar_icons"/> Users</li>
+              <li> <FaShop className="sidebar_icons"/> Products</li>
+              <li><BsCartCheckFill className="sidebar_icons"/>Orders</li>
+              <li><TbTruckDelivery className="sidebar_icons"/> Delivery</li>
             
             </ul>
-          </div>
+         
        </div>
-        <div className="bottom">
+       </div>
+       <div className="sidebarDown">
+
+      
+        <div className="sidebar_bottom">
           <ul>
-            <li><TbLogout className="icons"/> Logout</li>
+            <li><TbLogout className="sidebar_icons"/> Logout</li>
             
           </ul>
+        </div>
         </div>
     </div>
   )

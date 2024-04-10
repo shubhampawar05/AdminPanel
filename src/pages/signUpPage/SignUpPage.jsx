@@ -37,6 +37,7 @@ function SignUpPage() {
             theme: "light",
             transition: Bounce,
           });
+          return;
     }
     
 
@@ -76,9 +77,9 @@ function SignUpPage() {
   };
 
   return (
-    <div className='container'>
-      <div className='innerBox'>
-        <h1 className='heading'>Signup for  Admin Panel</h1>
+    <div className='singup_container'>
+      <div className='singup_innerBox'>
+        <h1 className='singup_heading'>Signup for  Admin Panel</h1>
 
         <InputControl
           label="Name"
@@ -102,7 +103,7 @@ function SignUpPage() {
           }
         />
 
-        <div className='footer'>
+        <div className='singup_footer'>
         
           <button onClick={handleSubmission} disabled={submitButtonDisabled}>
             Signup

@@ -1,4 +1,4 @@
-.container {
+.singup_container {
     height: 100vh;
     min-height: 100vh;
     width: 100%;
@@ -12,7 +12,7 @@
     align-items: center;
   }
   
-  .innerBox {
+  .singup_innerBox {
     min-width: 480px;
     height: fit-content;
     width: fit-content;
@@ -25,20 +25,15 @@
     gap: 30px;
   }
   
-  .footer {
+  .singup_footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
   
-  .footer .error {
-    font-weight: bold;
-    font-size: 0.875rem;
-    color: #ff3300;
-    text-align: center;
-  }
+
   
-  .footer button {
+  .singup_footer button {
     outline: none;
     border: none;
     background-color: #9900ff;
@@ -52,20 +47,20 @@
     cursor: pointer;
   }
   
-  .footer button:disabled {
+  .singup_footer button:disabled {
     background-color: gray !important;
   }
   
-  .footer button:hover {
+  .singup_footer button:hover {
     background-color: #aa2aff;
   }
   
-  .footer p {
+  .singup_footer p {
     font-weight: 700;
     color: #000;
   }
   
-  .footer p span a {
+  .singup_footer p span a {
     font-weight: bold;
     color: #9900ff;
     letter-spacing: 1px;

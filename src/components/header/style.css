@@ -6,28 +6,40 @@
     background-color: white;
     border-bottom: 1px solid rgba(88, 85, 85, 0.426);
     padding: 0 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 85%;
 
 }
-.searchInput{
+.header_searchInput{
     border: 1px solid black;
     padding: 5px 10px;
     border-radius: 1rem;
     display: flex;
     align-items: center;
 }
-.searchInput input{
+.header_searchInput input{
     outline: none;
     border: none;
     background-color: transparent;
 
 }
 
-.headerIcons{
+.header_headerIcons{
     display: flex;
     align-items: center;
     gap: 1rem;
+    /* cursor: pointer; */
 }
-.profilephoto{
+.header_Div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 5px;
+}
+.header_profilephoto{
     width: 30px;
     height: 30px;
     border-radius: 50%;

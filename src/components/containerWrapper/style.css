@@ -1,0 +1,10 @@
+.containerWrapper{
+    width: 85%;
+    height: 100vh;
+    flex: 6;
+    position: fixed;
+    right: 0;
+    top: 50px;
+    overflow-y: scroll;
+    
+}

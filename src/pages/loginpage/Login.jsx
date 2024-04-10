@@ -4,13 +4,14 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 
 import InputControl from "./../../components/inputcontrols/InputControl";
 import { auth } from "./../../firbase/config";
-// import './style.css'
+import './style.css'
 
 import { Slide, Zoom, Flip, Bounce } from "react-toastify";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Login() {
+  
   const navigate = useNavigate();
   const [values, setValues] = useState({
     email: "",
@@ -71,9 +72,9 @@ function Login() {
       });
   };
   return (
-    <div className="container">
-      <div className="innerBox">
-        <h1 className="heading">Login To Admin Panel</h1>
+    <div className="login_container">
+      <div className="login_innerBox">
+        <h1 className="login_heading">Login To Admin Panel</h1>
 
         <InputControl
           label="Email"
@@ -88,9 +89,10 @@ function Login() {
             setValues((prev) => ({ ...prev, pass: event.target.value }))
           }
           placeholder="Enter Password"
+         
         />
 
-        <div className="footer">
+        <div className="login_footer">
           <button disabled={submitButtonDisabled} onClick={handleSubmission}>
             Login
           </button>
